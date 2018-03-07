@@ -2,14 +2,15 @@
 
 ### Instalacja Putty
 
-https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe
+   https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe
 
 #### Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 1. Adres IP + port
 2. SSH -> Tunnels
 3. Source port - 45678
 4. Dynamic
-5. instalacja Firefox’a i ustawienie proxy
+5. Instalacja Firefox’a i ustawienie proxy
+   https://www.mozilla.org/pl/firefox/
 6. SOCKS Host
 7. Proxy DNS when using SOCKS v5 
 
