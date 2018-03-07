@@ -2,6 +2,8 @@
 
 ### Instalacja Putty
 
+https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe
+
 #### Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 1. Adres IP + port
 2. SSH -> Tunnels
