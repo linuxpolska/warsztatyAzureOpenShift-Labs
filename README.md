@@ -2,7 +2,7 @@
 
 ###Instalacja Putty
 
-	##### Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
+##### Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 1. Adres IP + port
 2. SSH -> Tunnels
 3. Source port - 45678
@@ -11,8 +11,8 @@
 6. SOCKS Host
 7. Proxy DNS when using SOCKS v5 
 
-- ###Instalacja Dockera i OC 
-  #####Docker: 
+###Instalacja Dockera i OC 
+#####Docker: 
 1. https://store.docker.com/editions/community/docker-ce-server-centos
   https://docs.docker.com/install/linux/docker-ce/centos/
 
@@ -29,7 +29,8 @@
 7. przelogować się na admin1
 
 8. `docker version`
-  #####atomic-openshift-clients ():
+
+#####atomic-openshift-clients (oc):
 
 9. ssh na admin1`
 
@@ -39,13 +40,13 @@
 
 22. `oc version`
 
-- ###Zapoznanie się z poleceniem docker oraz Docker Hub
-  #####Podstawowe polecenia (docker run, docker ps, docker pull, docker inspect, docker exec, docker logs, docker tag)
+###Zapoznanie się z poleceniem docker oraz Docker Hub
+#####Podstawowe polecenia (docker run, docker ps, docker pull, docker inspect, docker exec, docker logs, docker tag)
 1. `docker pull kaminskypavel/mario`
 
 2. `docker images`
 
-	#####Uruchomienie prostego kontenera
+#####Uruchomienie prostego kontenera
 
 3. `docker run -d -p 8080:8080 --name mario kaminskypavel/mario`
 
