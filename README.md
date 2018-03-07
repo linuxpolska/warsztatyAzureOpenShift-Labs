@@ -1,8 +1,8 @@
 # Ustawienia środowiska
 
-Instalacja Putty
+### Instalacja Putty
 
-Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
+#### Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 1. Adres IP + port
 2. SSH -> Tunnels
 3. Source port - 45678
@@ -12,7 +12,7 @@ Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 7. Proxy DNS when using SOCKS v5 
 
 ### Instalacja Dockera i OC 
-#### Docker:
+##### Docker:
 
 1. https://store.docker.com/editions/community/docker-ce-server-centos
   https://docs.docker.com/install/linux/docker-ce/centos/
@@ -31,7 +31,7 @@ Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 
 8. `docker version`
 
-#####atomic-openshift-clients (oc):
+##### atomic-openshift-clients (oc):
 
 9. ssh na admin1`
 
@@ -41,24 +41,24 @@ Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 
 22. `oc version`
 
-###Zapoznanie się z poleceniem docker oraz Docker Hub
-#####Podstawowe polecenia (docker run, docker ps, docker pull, docker inspect, docker exec, docker logs, docker tag)
+### Zapoznanie się z poleceniem docker oraz Docker Hub
+##### Podstawowe polecenia (docker run, docker ps, docker pull, docker inspect, docker exec, docker logs, docker tag)
 1. `docker pull kaminskypavel/mario`
 
 2. `docker images`
 
-#####Uruchomienie prostego kontenera
+##### Uruchomienie prostego kontenera
 
 3. `docker run -d -p 8080:8080 --name mario kaminskypavel/mario`
 
 4. `docker ps`
-Wejście do kontenera
+##### Wejście do kontenera
 5. `docker inspect mario`
 6. `docker exec -it mario bash`
 7. `docker tag kaminskypavel/mario mario:1.1`
 
-###OpenShift
-#####instalacja podsystemu metryk
+### OpenShift
+##### Instalacja podsystemu metryk
 1. https://docs.openshift.com/container-platform/3.6/install_config/install/advanced_install.html
   https://docs.openshift.com/container-platform/3.6/install_config/install/quick_install.html
   https://docs.openshift.com/container-platform/3.6/install_config/cluster_metrics.html
@@ -101,6 +101,6 @@ Wejście do kontenera
 
 20. `oc delete project load`
 
-#####Wykorzystanie s2i do budowy kontenera w oparciu o kod dostępny na GitHub-ie
+##### Wykorzystanie s2i do budowy kontenera w oparciu o kod dostępny na GitHub-ie
 
 1. index.php z pokazaniem IP noda
