@@ -1,4 +1,4 @@
-#Ustawienia środowiska
+# Ustawienia środowiska
 
 Instalacja Putty
 
@@ -11,8 +11,8 @@ Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 6. SOCKS Host
 7. Proxy DNS when using SOCKS v5 
 
-###Instalacja Dockera i OC 
-####Docker:
+### Instalacja Dockera i OC 
+#### Docker:
 
 1. https://store.docker.com/editions/community/docker-ce-server-centos
   https://docs.docker.com/install/linux/docker-ce/centos/
