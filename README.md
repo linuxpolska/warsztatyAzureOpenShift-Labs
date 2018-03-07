@@ -1,6 +1,6 @@
 #Utawienia środowiska
 
-- ###Instalacja Putty
+###Instalacja Putty
 
 	##### Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 1. Adres IP + port
