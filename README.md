@@ -1,8 +1,8 @@
-##Utawienia środowiska
+Utawienia środowiska
 
-###Instalacja Putty
+Instalacja Putty
 
-####Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
+Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 1. Adres IP + port
 2. SSH -> Tunnels
 3. Source port - 45678
@@ -52,13 +52,13 @@
 3. `docker run -d -p 8080:8080 --name mario kaminskypavel/mario`
 
 4. `docker ps`
-	##### 	Wejście do kontenera
+Wejście do kontenera
 5. `docker inspect mario`
 6. `docker exec -it mario bash`
 7. `docker tag kaminskypavel/mario mario:1.1`
 
-- ###OpenShift
-    #####instalacja podsystemu metryk
+###OpenShift
+#####instalacja podsystemu metryk
 1. https://docs.openshift.com/container-platform/3.6/install_config/install/advanced_install.html
   https://docs.openshift.com/container-platform/3.6/install_config/install/quick_install.html
   https://docs.openshift.com/container-platform/3.6/install_config/cluster_metrics.html
@@ -101,6 +101,6 @@
 
 20. `oc delete project load`
 
-	#####Wykorzystanie s2i do budowy kontenera w oparciu o kod dostępny na GitHub-ie
+#####Wykorzystanie s2i do budowy kontenera w oparciu o kod dostępny na GitHub-ie
 
-   1. index.php z pokazaniem IP noda
+1. index.php z pokazaniem IP noda
