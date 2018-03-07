@@ -1,4 +1,4 @@
-Utawienia środowiska
+#Ustawienia środowiska
 
 Instalacja Putty
 
