@@ -1,8 +1,8 @@
-#Utawienia środowiska
+##Utawienia środowiska
 
 ###Instalacja Putty
 
-##### Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
+####Konfiguracja połączenia ssh z tunelowanie dynamicznie portu
 1. Adres IP + port
 2. SSH -> Tunnels
 3. Source port - 45678
@@ -12,7 +12,8 @@
 7. Proxy DNS when using SOCKS v5 
 
 ###Instalacja Dockera i OC 
-#####Docker: 
+####Docker:
+
 1. https://store.docker.com/editions/community/docker-ce-server-centos
   https://docs.docker.com/install/linux/docker-ce/centos/
 
