@@ -16,7 +16,7 @@
 
 #### Konfiguracja połaczenia ssh z tunelowaniem dynamicznie portu dla Linux
 1. Otwieramy terminal
-2. 'ssh -D 45678 user@ip -p <numer_portu>'
+2. `ssh -D 45678 user@ip -p <numer_portu>`
 
 ### Instalacja Dockera i OC 
 ##### Docker:
